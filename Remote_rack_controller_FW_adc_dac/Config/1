@@ -1,0 +1,93 @@
+Сравнение файлов FreeRTOSConfig.h и D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+***** FreeRTOSConfig.h
+
+#include <peripheral_clk_config.h>
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+
+#if defined(__ICCARM__)
+#include <cmsis_compiler.h>
+#endif
+
+#include <peripheral_clk_config.h>
+*****
+
+***** FreeRTOSConfig.h
+#ifndef configMAX_PRIORITIES
+#define configMAX_PRIORITIES ((uint32_t)6)
+#endif
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#ifndef configMAX_PRIORITIES
+#define configMAX_PRIORITIES (5)
+#endif
+*****
+
+***** FreeRTOSConfig.h
+// <i> Defines the heap size(byte) on system
+// <i> Default: 2400
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+// <i> Defines the heap size(byte) on system
+// <i> value should be multiples of 4
+// <i> Default: 2400
+*****
+
+***** FreeRTOSConfig.h
+#ifndef configTOTAL_HEAP_SIZE
+#define configTOTAL_HEAP_SIZE ((size_t)(47104))
+//#define configTOTAL_HEAP_SIZE ((size_t)(20000))
+#endif
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#ifndef configTOTAL_HEAP_SIZE
+#define configTOTAL_HEAP_SIZE ((size_t)(2400))
+#endif
+*****
+
+***** FreeRTOSConfig.h
+#ifndef FREERTOS_ADVANCED_CONFIG
+#define FREERTOS_ADVANCED_CONFIG 1
+#endif
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#ifndef FREERTOS_ADVANCED_CONFIG
+#define FREERTOS_ADVANCED_CONFIG 0
+#endif
+*****
+
+***** FreeRTOSConfig.h
+#endif
+                                        
+// <q> Use statistics formating functions
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#endif
+
+// <q> Use statistics formating functions
+*****
+
+***** FreeRTOSConfig.h
+#ifndef INCLUDE_vTaskPrioritySet
+#define INCLUDE_vTaskPrioritySet 1
+#endif
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#ifndef INCLUDE_vTaskPrioritySet
+#define INCLUDE_vTaskPrioritySet 0
+#endif
+*****
+
+***** FreeRTOSConfig.h
+#ifndef INCLUDE_uxTaskPriorityGet
+#define INCLUDE_uxTaskPriorityGet 1
+#endif
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#ifndef INCLUDE_uxTaskPriorityGet
+#define INCLUDE_uxTaskPriorityGet 0
+#endif
+*****
+
+***** FreeRTOSConfig.h
+#ifndef INCLUDE_vTaskDelete
+#define INCLUDE_vTaskDelete 1
+#endif
+***** D:\USERS\PETER\2023_12_25_EGOR_TESTS_BNCT\RTOS_ADC_DAC_115200\RTOS_ADC_DAC_115200\CONFIG\FREERTOSCONFIG.H
+#ifndef INCLUDE_vTaskDelete
+#define INCLUDE_vTaskDelete 0
+#endif
+*****
+
